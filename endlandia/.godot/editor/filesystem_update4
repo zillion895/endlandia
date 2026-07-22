@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 res://scenes/test_world.tscn
 res://Player/player.gd
 res://Player/Player.tscn
+=======
+res://mainMenu.gd
+res://scenes/world_1.tscn
+res://scenes/main_menu.tscn
+res://textures/dev_material.tres
+>>>>>>> 42110f2 (dev textures and changes to main menu)

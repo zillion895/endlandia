@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 OccluderInstance3D
+=======
+CSGBox3D
+LightmapGI
+>>>>>>> 42110f2 (dev textures and changes to main menu)
 DirectionalLight3D
 Control
 Container
 Node3D
 CSGCylinder3D
 CSGSphere3D
-CSGBox3D
