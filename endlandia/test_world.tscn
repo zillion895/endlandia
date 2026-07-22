@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://v4xq4okye702"]
+
+[ext_resource type="PackedScene" uid="uid://dq3kwprv3g7cf" path="res://Player/Player.tscn" id="1_dxppu"]
+
+[node name="TestWorld" type="Node3D" unique_id=236141653]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=260342331]
+transform = Transform3D(31.840605, 0, 0, 0, 0.1864896, 0, 0, 0, 20.422644, 0, 0, 0)
+use_collision = true
+
+[node name="CharacterBody3D" parent="." unique_id=1400847916 instance=ExtResource("1_dxppu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 1.2278394, 2)
