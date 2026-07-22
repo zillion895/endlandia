@@ -1,3 +1,11 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1784743373
+::res://::1784753807
 icon.svg::CompressedTexture2D::5976093353135161371::1784743145::1784743374::1::::<><><>0<>0<>f654fbfb73611209b94aa1fbb0f586e7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+mainMenu.gd::GDScript::484625931759877653::1784753697::0::1::::<>Control<><>0<>0<><>::
+::res://Player/::1784753697
+player.gd::GDScript::8774479235493076384::1784753697::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.tscn::PackedScene::8340733398898828825::1784753697::0::1::::<><><>0<>0<><>::uid://dxaonkbqkw4a3::::res://Player/player.gd
+::res://scenes/::1784753807
+main_menu.tscn::PackedScene::1006791401876980130::1784753697::0::1::::<><><>0<>0<><>::uid://g50yolyucehh::::res://mainMenu.gd
+test_world.tscn::PackedScene::1535259280093557965::1784753743::0::1::::<><><>0<>0<><>::uid://dq3kwprv3g7cf::::res://Player/Player.tscn
+world_1.tscn::PackedScene::2006914795523499275::1784753697::0::1::::<><><>0<>0<><>::
