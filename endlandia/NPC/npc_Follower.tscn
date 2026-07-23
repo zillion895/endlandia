@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://br517tlug6w3u"]
+
+[ext_resource type="Script" uid="uid://ik14n4jt45du" path="res://NPC/npc_follower.gd" id="1_0l222"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2jcod"]
+radius = 0.97265625
+height = 1.9453125
+
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=926493881]
+script = ExtResource("1_0l222")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=799825080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5627899, 0)
+shape = SubResource("CapsuleShape3D_2jcod")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=2086163957]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00088500977, 1.557081, 0.009552002)
+radius = 1.0

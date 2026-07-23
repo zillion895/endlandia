@@ -1,3 +1,6 @@
+res://NPC/character_body_3d.gd
+res://npc_Follower.tscn
 res://scenes/test_world.tscn
-res://Player/player.gd
+res://NPC/npc_follower.gd
+res://NPC/npc_Follower.tscn
 res://Player/Player.tscn
