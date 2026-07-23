@@ -1,6 +1,25 @@
 [gd_scene format=3 uid="uid://olxybvrtmn1k"]
 
-[ext_resource type="Script" uid="uid://g50yolyucehh" path="res://mainMenu.gd" id="1_06t4h"]
+[ext_resource type="Script" uid="uid://g50yolyucehh" path="res://mainMenu.gd" id="1_l6cm7"]
+
+[sub_resource type="Theme" id="Theme_cmxnd"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ekxnf"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.6419018, 0.7218245, 0.81403595, 0.6)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.73955685, 0.8421073, 0.925203, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 5
 
 [node name="Control" type="Control" unique_id=638137200]
 layout_mode = 3
@@ -9,7 +28,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_06t4h")
+script = ExtResource("1_l6cm7")
 
 [node name="Control" type="Control" parent="." unique_id=252218000]
 layout_mode = 1
@@ -26,10 +45,11 @@ offset_bottom = -0.06402588
 custom_minimum_size = Vector2(7.245, 0)
 layout_mode = 1
 anchors_preset = -1
-anchor_right = 1.2
-anchor_bottom = 0.73
-offset_right = 0.5999756
-offset_bottom = -308.21002
+anchor_right = 1.0
+anchor_bottom = 0.946
+offset_bottom = -421.0
+theme = SubResource("Theme_cmxnd")
+theme_override_styles/normal = SubResource("StyleBoxFlat_ekxnf")
 text = "start"
 
 [connection signal="pressed" from="Control/Button" to="." method="_on_start"]
