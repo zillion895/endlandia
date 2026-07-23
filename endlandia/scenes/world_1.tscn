@@ -119,6 +119,24 @@ material_override = ExtResource("1_4eyuj")
 use_collision = true
 size = Vector3(1.7294006, 2.899292, 3.2170105)
 
+[node name="CSGBox3D7" type="CSGBox3D" parent="house1" unique_id=1692750895]
+transform = Transform3D(3.821675, 0, 0, 0, 2.5450988, -1.851635, 0, 1.7820973, 2.6444087, -0.9601059, -6.9944153, -23.742275)
+material_override = ExtResource("1_4eyuj")
+use_collision = true
+size = Vector3(1.7294006, 2.899292, 3.2170105)
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="house1" unique_id=5472071]
+transform = Transform3D(3.821675, 0, 0, 0, 3.0011237, -0.8355266, 0, 0.8041486, 3.1182277, 5.6602454, -6.9944153, -23.742275)
+material_override = ExtResource("1_4eyuj")
+use_collision = true
+size = Vector3(1.7294006, 2.899292, 3.2170105)
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="house1" unique_id=883991357]
+transform = Transform3D(3.821675, 0, 0, 0, 3.0597894, -0.5605757, 0, 0.5395235, 3.1791828, 12.322088, -6.9944153, -23.742275)
+material_override = ExtResource("1_4eyuj")
+use_collision = true
+size = Vector3(1.7294006, 2.899292, 3.2170105)
+
 [node name="CSGBox3D5" type="CSGBox3D" parent="house1" unique_id=1369302082]
 transform = Transform3D(3.821675, 0, 0, 0, 3.1069918, 0, 0, 0, 3.228227, 1.5936012, 1.1791153, 0.6783476)
 material_override = ExtResource("1_4eyuj")

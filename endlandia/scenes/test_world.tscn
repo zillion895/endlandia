@@ -1,12 +1,32 @@
 [gd_scene format=3 uid="uid://v4xq4okye702"]
 
+[ext_resource type="Material" uid="uid://cq618wwe8fa7g" path="res://textures/dev_material.tres" id="1_amxg5"]
 [ext_resource type="PackedScene" uid="uid://dq3kwprv3g7cf" path="res://Player/Player.tscn" id="1_dxppu"]
 
 [node name="TestWorld" type="Node3D" unique_id=236141653]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=260342331]
 transform = Transform3D(31.840605, 0, 0, 0, 0.1864896, 0, 0, 0, 20.422644, 0, 0, 0)
+material_override = ExtResource("1_amxg5")
 use_collision = true
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=790116226]
+transform = Transform3D(31.840605, 0, 0, 0, 0.18335412, -3.729219, 0, 0.034053404, 20.079275, -11.948, 0, 0)
+material_override = ExtResource("1_amxg5")
+use_collision = true
+size = Vector3(0.24951172, 1, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=171435027]
+transform = Transform3D(31.840605, 0, 0, 0, 0.1743274, -7.2544823, 0, 0.06624438, 19.090752, -4.006774, 0, 0)
+material_override = ExtResource("1_amxg5")
+use_collision = true
+size = Vector3(0.24951172, 1, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=1515862249]
+transform = Transform3D(31.840603, 0, 0, 0, 0.13186803, -14.440989, 0, 0.13186803, 14.440989, 3.891882, 0, 0)
+material_override = ExtResource("1_amxg5")
+use_collision = true
+size = Vector3(0.24951172, 1, 1)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1780667362]
 transform = Transform3D(1, 0, 0, 0, 0.025151297, 0.9996837, 0, -0.9996837, 0.025151297, -0.052906543, 6.528393, 0)

@@ -1,26 +1,14 @@
 78098b89c88a74ebe8c20117b8754620
-<<<<<<< HEAD
-::res://::1784754224
-icon.svg::CompressedTexture2D::5976093353135161371::1784743139::1784754224::1::::<><><>0<>0<>f654fbfb73611209b94aa1fbb0f586e7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-mainMenu.gd::GDScript::484625931759877653::1784754189::0::1::::<>Control<><>0<>0<><>::
-::res://Player/::1784751049
-player.gd::GDScript::8774479235493076384::1784750981::0::1::::<>CharacterBody3D<><>0<>0<><>::
-Player.tscn::PackedScene::8340733398898828825::1784751049::0::1::::<><><>0<>0<><>::uid://dxaonkbqkw4a3::::res://Player/player.gd
-::res://scenes/::1784754189
-main_menu.tscn::PackedScene::1006791401876980130::1784754189::0::1::::<><><>0<>0<><>::uid://g50yolyucehh::::res://mainMenu.gd
-test_world.tscn::PackedScene::1535259280093557965::1784754189::0::1::::<><><>0<>0<><>::uid://dq3kwprv3g7cf::::res://Player/Player.tscn
-world_1.tscn::PackedScene::2006914795523499275::1784754189::0::1::::<><><>0<>0<><>::
-=======
-::res://::1784755476
+::res://::1784836390
 icon.svg::CompressedTexture2D::5976093353135161371::1784743145::1784743374::1::::<><><>0<>0<>f654fbfb73611209b94aa1fbb0f586e7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-mainMenu.gd::GDScript::484625931759877653::1784753930::0::1::::<>Control<><>0<>0<><>::
-::res://Player/::1784753697
-player.gd::GDScript::8774479235493076384::1784753697::0::1::::<>CharacterBody3D<><>0<>0<><>::
+mainMenu.gd::GDScript::484625931759877653::1784756240::0::1::::<>Control<><>0<>0<><>::
+::res://Player/::1784756240
+player.gd::GDScript::8774479235493076384::1784756240::0::1::::<>CharacterBody3D<><>0<>0<><>::
 Player.tscn::PackedScene::8340733398898828825::1784753697::0::1::::<><><>0<>0<><>::uid://dxaonkbqkw4a3::::res://Player/player.gd
-::res://scenes/::1784754953
-main_menu.tscn::PackedScene::1006791401876980130::1784754771::0::1::::<><><>0<>0<><>::uid://g50yolyucehh::::res://mainMenu.gd
-test_world.tscn::PackedScene::1535259280093557965::1784753743::0::1::::<><><>0<>0<><>::uid://dq3kwprv3g7cf::::res://Player/Player.tscn
-world_1.tscn::PackedScene::2006914795523499275::1784754953::0::1::::<><><>0<>0<><>::uid://dq3kwprv3g7cf::::res://Player/Player.tscn
-::res://textures/::1784755486
-texture_13.png::CompressedTexture2D::5356061153784280419::1784755482::1784755492::1::::<><><>0<>0<>450ffe20a084243d57a8e63e7fdd4351<>res://.godot/imported/texture_13.png-8f3860f889028ada54c9bdf4f9b73e0b.s3tc.ctex::
->>>>>>> 42110f2 (dev textures and changes to main menu)
+::res://scenes/::1784756240
+main_menu.tscn::PackedScene::1006791401876980130::1784756240::0::1::::<><><>0<>0<><>::uid://g50yolyucehh::::res://mainMenu.gd
+test_world.tscn::PackedScene::1535259280093557965::1784756240::0::1::::<><><>0<>0<><>::uid://dq3kwprv3g7cf::::res://Player/Player.tscn
+world_1.tscn::PackedScene::2006914795523499275::1784756240::0::1::::<><><>0<>0<><>::uid://cq618wwe8fa7g::::res://textures/dev_material.tres<>uid://dq3kwprv3g7cf::::res://Player/Player.tscn<>uid://cikrsrv2p68gl::::res://textures/texture_13.png
+::res://textures/::1784756240
+dev_material.tres::StandardMaterial3D::5961497338706801662::1784756240::0::1::::<><><>0<>0<><>::uid://cikrsrv2p68gl::::res://textures/texture_13.png
+texture_13.png::CompressedTexture2D::5356061153784280419::1784756240::1784756240::1::::<><><>0<>0<>450ffe20a084243d57a8e63e7fdd4351<>res://.godot/imported/texture_13.png-8f3860f889028ada54c9bdf4f9b73e0b.s3tc.ctex::
