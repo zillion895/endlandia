@@ -1,7 +1,7 @@
-CSGSphere3D
-CSGBox3D
-CollisionShape3D
 CharacterBody3D
+CSGBox3D
+CSGSphere3D
+CollisionShape3D
 OccluderInstance3D
 DirectionalLight3D
 Control

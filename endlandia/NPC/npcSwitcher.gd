@@ -1,16 +1,32 @@
 extends CharacterBody3D
 
+@export_group("Follower")
+@export_group("Idler")
+
 @export var target_path: NodePath
-@export var speed: float = 200.0
-@export var min_distance: float = 60.0
-@export var smooth_factor: float = 5.0
+@export var speed: float = 8.0
+@export var min_distance: float = 6.0
+@export var smooth_factor: float = 0.02
 
 var target: Node3D	
+
 func _ready() -> void:
-	target = get_node(get_parent().get_meta("Player"))
+	%Follower.visible = false
+	%Idler.visible = true
+	if target_path:
+		target = get_node(target_path)
+		
+func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("Follow"):
+		%Idler.visible = false
+		%Follower.visible = true
+	elif event.is_action_pressed("Idle"):
+		%Idler.visible = true
+		%Follower.visible = false
+		
 
 func _physics_process(delta: float) -> void:
-	if visible:
+	if %Follower.visible:
 		if not target:
 			return
 			

@@ -19,8 +19,4 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 1.2278394, 2)
 
 [node name="npc" parent="." unique_id=926493881 instance=ExtResource("2_amxg5")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.0466094, 1.8397886, -0.4381554)
-motion_mode = 1
 target_path = NodePath("../Player")
-speed = 4.0
-min_distance = 4.0
-smooth_factor = 0.02

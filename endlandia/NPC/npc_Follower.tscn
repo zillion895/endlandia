@@ -1,18 +1,30 @@
 [gd_scene format=3 uid="uid://br517tlug6w3u"]
 
-[ext_resource type="Script" uid="uid://ik14n4jt45du" path="res://NPC/npc_follower.gd" id="1_0l222"]
+[ext_resource type="Script" uid="uid://do4tqj02rc3g" path="res://NPC/npcSwitcher.gd" id="1_w2awk"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2jcod"]
 radius = 0.97265625
 height = 1.9453125
 
-[node name="CharacterBody3D" type="CharacterBody3D" unique_id=926493881]
-script = ExtResource("1_0l222")
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_uua80"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=799825080]
+[node name="NPC_Character" type="CharacterBody3D" unique_id=926493881]
+motion_mode = 1
+script = ExtResource("1_w2awk")
+min_distance = 5.0
+
+[node name="Follower" type="CollisionShape3D" parent="." unique_id=799825080]
+unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5627899, 0)
 shape = SubResource("CapsuleShape3D_2jcod")
 
-[node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=2086163957]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00088500977, 1.557081, 0.009552002)
+[node name="CSGSphere3D" type="CSGSphere3D" parent="Follower" unique_id=2086163957]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00088500977, -0.005708933, 0.009552002)
 radius = 1.0
+
+[node name="Idler" type="CollisionShape3D" parent="." unique_id=2014809008]
+unique_name_in_owner = true
+shape = SubResource("CapsuleShape3D_uua80")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="Idler" unique_id=470194160]
+size = Vector3(0.8, 2, 0.8)
